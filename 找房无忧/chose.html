@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/chose.css">
+    <script src=""></script>
+</head>
+
+<body>
+
+    <div class="old">
+        <div class="zhezhao"></div>
+        <div class="headers">
+            <img class="img-logo" src="./首页img/logo.jpg">
+            <img class="img-my" src="./首页img/my.jpg" />
+            <img src="./首页img/xiazai.jpg" />
+        </div>
+        <div class="search">
+        <input type="text"  placeholder="请输入小区名或商圈名称" />
+        <img class="search_img" src="./SecondHandList/search_03.png"/>
+        </div>
+        <div class="extend">
+            <ul class="sanjiao">
+                <li class="sanjiao_one cli" data-showClass="area">区域<span class="jiao"></span></li>
+                <li class="sanjiao_two cli" data-showClass="money">价格<span class="jiao"></span></li>
+                <li class="sanjiao_three cli" data-showClass="byhouse">房型<span class="jiao"></span></li>
+                <li class="sanjiao_four cli" data-showClass="more">更多<span class="jiao"></span></li>
+            </ul>
+            <div class="showWrap">
+                <div class="area" style="display: none;">
+                    <div class="area-l">
+                        <a>区域</a>
+                        <a>地铁</a>
+                    </div>
+                    <div class="area-r">
+                        <ul>
+                            <li><a href="#">附近</a></li>
+                            <li><a href="#">不限</a></li>
+                            <li><a href="#">朝阳</a></li>
+                            <li><a href="#">海定</a></li>
+                            <li><a href="#">昌平</a></li>
+                            <li><a href="#">丰台</a></li>
+                            <li><a href="#">石景山</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">不限</a></li>
+                            <li><a href="#">安贞</a></li>
+                            <li><a href="#">奥林匹克公园</a></li>
+                            <li><a href="#">百子湾</a></li>
+                            <li><a href="#">北工大</a></li>
+                            <li><a href="#">北苑</a></li>
+                            <li><a href="#">CBD</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="money">
+                    <ul>
+                        <li><a>不限</a></li>
+                        <li><a>100万以下</a></li>
+                        <li><a>100万-150万</a></li>
+                        <li><a>150万-200万</a></li>
+                        <li><a>200万-250万</a></li>
+                        <li><a>250万-300万</a></li>
+                        <li><a>自定义价格</a></li>
+                    </ul>
+                </div>
+                <div class="byhouse">
+                    <ul>
+                        <li><a>不限</a></li>
+                        <li>1室<input type="checkbox" /></li>
+                        <li>2室<input type="checkbox" /></li>
+                        <li>3室<input type="checkbox" /></li>
+                        <li>4室<input type="checkbox" /></li>
+                        <li>5室<input type="checkbox" /></li>
+                        <button>确定</button>
+                    </ul>
+
+                </div>
+                <ul class="more">
+                    <li class="more-li">
+                        <p>区域</p>
+                        <ul>
+                            <li><a>南</a></li>
+                            <li><a>南北</a></li>
+                            <li><a>东</a></li>
+                            <li><a>西</a></li>
+                            <li><a>北</a></li>
+                        </ul>
+                    </li>
+                    <li class="more-li">
+                        <p>面积(平房)</p>
+                        <ul>
+                            <li><a>50以下</a></li>
+                            <li><a>50-70</a></li>
+                            <li><a>70-90</a></li>
+                            <li><a>90-110</a></li>
+                            <li><a>110-130</a></li>
+                            <li><a>130-150</a></li>
+                            <li><a>150-200</a></li>
+                            <li><a>200以上</a></li>
+                        </ul>
+                    </li>
+                    <li class="more-li">
+                        <p>标签</p>
+                        <ul>
+                            <li><a>学区房</a></li>
+                            <li><a>地铁房</a></li>
+                            <li><a>不限购</a></li>
+                            <li><a>满两年</a></li>
+                            <li><a>满五唯一</a></li>
+                            <li><a>降价</a></li>
+                            <li><a>新上</a></li>
+                            <li><a>独家</a></li>
+                            <li><a>有钥匙</a></li>
+                        </ul>
+                    </li>
+                    <li class="more-li">
+                        <p>楼龄</p>
+                        <ul>
+                            <li><a>5年以内</a></li>
+                            <li><a>10年以内</a></li>
+                            <li><a>10-20年</a></li>
+                            <li><a>20年以上</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="ulss">
+            <li>
+                <img src="./首页img/img1.jpg" />
+                <div>
+                    <p class="lis-one">展望广州中部中间层 一层带花园的看法我发你离开</p>
+                    <p class="sn">南北 高楼层/6层</p>
+                    <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                    <p class="lis-three">签约日期:2015年11月10日</p>
+                </div>
+            </li>
+            <li>
+                <img src="./首页img/img2.png" />
+                <div>
+                    <p class="lis-one">郑州中部高层 一层带花园的看法我发你离开</p>
+                    <p class="sn">南北 高楼层/6层</p>
+                    <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                    <p class="lis-three">签约日期:2015年11月10日</p>
+                </div>
+            </li>
+            <li>
+                <img src="./首页img/img3.png" />
+                <div>
+                    <p class="lis-one">文化中部中间层 一层带花园的看法我发你离开</p>
+                    <p class="sn">南北 高楼层/6层</p>
+                    <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                    <p class="lis-three">签约日期:2015年11月10日</p>
+                </div>
+            </li>
+            <li>
+                <img src="./首页img/img1.jpg" />
+                <div>
+                    <p class="lis-one">岗位个报建设部的看法我发你离开</p>
+                    <p class="sn">南北 高楼层/6层</p>
+                    <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                    <p class="lis-three">签约日期:2015年11月10日</p>
+                </div>
+            </li>
+            <li>
+                <img src="./首页img/img2.png" />
+                <div>
+                    <p class="lis-one">发个日回购间层 一层带花园的看法我发你离开</p>
+                    <p class="sn">南北 高楼层/6层</p>
+                    <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                    <p class="lis-three">签约日期:2015年11月10日</p>
+                </div>
+            </li>
+            <li>
+                <img src="./首页img/img3.png" />
+                <div>
+                    <p class="lis-one">黄宇军又如何呢层 一层带花园的看法我发你离开</p>
+                    <p class="sn">南北 高楼层/6层</p>
+                    <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                    <p class="lis-three">签约日期:2015年11月10日</p>
+                </div>
+            </li>
+        </ul>
+        <div class="footers">
+            <div class="footers-nav">
+                <a href="#">北京找房无忧</a>><a href="#">首页</a>
+            </div>
+            <ul>
+                <li>
+                    <img src="./首页img/apple.png" />
+                    <div>
+                        <p>iPhone</p>
+                        <p>客户端</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./首页img/android.png" />
+                    <div>
+                        <p>iPhone</p>
+                        <p>客户端</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="footer-fot">
+                <p>房地产假发票经发局发盘发</p>
+                <p>房地产假发票经发局发发发爱看</p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script>
+    function setRem() {
+        var windw = document.documentElement.clientWidth || document.body.clientWidth;
+        var uiw = 320;
+        document.documentElement.style.fontSize = (windw / uiw) * 100 + 'px';
+    }
+    setRem();
+    window.onresize = setRem;
+</script>
+<script src="./jquery-3.5.1.js"></script>
+<script src="./touch-0.2.14.min.js"></script>
+<script>
+    touch.on($('.cli'), 'touchstart', function () {
+        $(this).find('.jiao').addClass('active');//添加三角样式
+        $('.zhezhao').css('display', 'block');//显示遮罩
+        $('.showWrap').show();//下拉内容显示
+        $(this).siblings('li').find('.jiao').removeClass('active');
+        console.log($(this).attr('data-showClass'));
+        switch ($(this).attr('data-showClass')) {
+            case "area":
+                $('.area').css('display', 'flex');
+                break;
+            case "money":
+                $('.money').css('display', 'flex');
+                break;
+            case "byhouse":
+                $('.byhouse').css('display', 'flex');
+                break;
+            case "more":
+                $('.more').css('display', 'flex');
+                break;
+        }
+        $('.' + $(this).attr('data-showClass')).siblings().hide()
+
+    });
+    //点击遮罩时
+    touch.on($('.zhezhao'), 'touchstart', function () {
+        $(this).hide();//它消失
+        $('.showWrap').hide();
+        $('.jiao').removeClass('active');
+
+    });
+</script>

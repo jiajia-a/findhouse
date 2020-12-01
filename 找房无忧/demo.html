@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+</head>
+
+<body>
+    <div class="old">
+    <div class="headers">
+        <img class="img-logo" src="./首页img/logo.jpg">
+        <img class="img-my" src="./首页img/my.jpg"/>
+        <img src="./首页img/xiazai.jpg"/>
+    </div>
+    <div class="navs">
+        <input type="text" placeholder="输入小区或商圈名开始找房咯！">
+    </div>
+    <ul class="house">
+        <li>
+            <img src="./首页img/index_03.png"/>
+            <p>二手房</p>
+        </li>
+        <li>
+            <img src="./首页img/index_05.png"/>
+            <p>二手房</p>
+        </li>
+        <li>
+            <img src="./首页img/index_07.png"/>
+            <p>二手房</p>
+        </li>
+        <li>
+            <img src="./首页img/index_09.png"/>
+            <p>二手房</p>
+        </li>
+    </ul>
+    <div class="look">
+        
+    </div>
+    <div class="hot">
+        <p class="hot-t">热门房源</p>
+        <p class="hot-b">Hot house</p>
+    </div>
+    <ul class="uls">
+        <li>
+            <img src="./首页img/img1.jpg"/>
+            <div>
+                <p class="lis-one">文化中部中间层 一层带花园的看法我发你离开</p>
+                <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                <p class="lis-three">红庙北里 <span>14256元/平</span></p>
+                <p class="lis-four">
+                    <a href="#">学区房</a>
+                    <a href="#">独家</a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <img src="./首页img/img2.png"/>
+            <div>
+                <p class="lis-one">文化中部中间层 一层带花园的看法我发你离开</p>
+                <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                <p class="lis-three">红庙北里 <span>14256元/平</span></p>
+                <p class="lis-four">
+                    <a href="#">学区房</a>
+                    <a href="#">独家</a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <img src="./首页img/img3.png"/>
+            <div>
+                <p class="lis-one">文化中部中间层 一层带花园的看法我发你离开</p>
+                <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                <p class="lis-three">红庙北里 <span>14256元/平</span></p>
+                <p class="lis-four">
+                    <a href="#">学区房</a>
+                    <a href="#">独家</a>
+                </p>
+            </div>
+        </li>
+    </ul>
+    <div class="door">
+        <div class="door-nav">
+            <a href="#" class="door-nav-l">热门关注</a>
+            <a href="#" class="door-nav-r">友情链接</a>
+        </div>
+        <ul>
+            <li>北京二手房</li>
+            <li>北京二手房</li>
+            <li>北京二手房</li>
+            <li>北京二手房</li>
+        </ul>
+        
+        <ul>
+            <li>北京二手房</li>
+            <li>北京二手房</li>
+            <li>北京二手房</li>
+            <li>北京二手房</li>
+        </ul>
+        
+    </div>
+    <div class="footers">
+        <div class="footers-nav"><a href="#">北京找房无忧</a>><a href="#">首页</a></div>
+        <ul>
+            <li>
+                <img src="./首页img/apple.png"/>
+                <div>
+                    <p>iPhone</p>
+                    <p>客户端</p>
+                </div>
+            </li>
+            <li>
+                <img src="./首页img/android.png"/>
+                <div>
+                    <p>iPhone</p>
+                    <p>客户端</p>
+                </div>
+            </li>
+        </ul>
+        <div class="footer-fot">
+            <p>房地产假发票经发局发盘发</p>
+        <p>房地产假发票经发局发发发爱看</p>
+        </div>
+        
+    </div>
+</div>
+        <div class="advertising">
+            <img class="img-a" src="./首页img/download.png"/>
+            <img class="img-b" src="./首页img/close.png"/>
+            <div class="advertising-house">
+                <p class="p-t">找房无忧</p>
+                <p class="p-b">市场行情，一手掌握！</p>
+            </div>
+            <div class="advertising-hand">免费下载</div>
+    
+        </div>
+</body>
+
+    <script>
+        function setRem(){
+        var windw = document.documentElement.clientWidth || document.body.clientWidth;
+        var uiw = 320;
+        document.documentElement.style.fontSize = (windw/uiw)*100+'px';
+       }
+        setRem();
+        window.onresize = setRem;
+
+
+        var close_= document.getElementsByClassName('advertising')[0];
+        var close_c = document.getElementsByClassName('img-b')[0];
+      
+        close_c.onclick=function(){
+           
+            close_.style.display='none';
+        }
+    </script>
+    <script src="./jquery-3.5.1.js"></script>
+    <script src="./touch-0.2.14.min.js"></script>
+    <script>
+        touch.on($('.door-nav-l'),'touchstart',function(){
+            $(this).css('border-bottom','1px solid red')
+            $('.door-nav-r').css('border-bottom','none')
+        })
+        touch.on($('.door-nav-r'),'touchstart',function(){
+            $(this).css('border-bottom','1px solid red')
+            $('.door-nav-l').css('border-bottom','none')
+        })
+    </script>
+    </html>
+
+

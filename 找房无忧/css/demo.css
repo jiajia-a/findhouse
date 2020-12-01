@@ -1,0 +1,310 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+html .old,
+body .old {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+html .old .headers,
+body .old .headers {
+  width: 100%;
+  height: 0.4rem;
+  background-color: #ff8a00;
+  display: flex;
+}
+html .old .headers img,
+body .old .headers img {
+  height: 100%;
+}
+html .old .headers .img-logo,
+body .old .headers .img-logo {
+  margin: 0 0.7rem 0 0.2rem;
+}
+html .old .headers .img-my,
+body .old .headers .img-my {
+  margin-right: 0.2rem;
+}
+html .old .navs,
+body .old .navs {
+  width: 100%;
+  height: 2.25rem;
+  background: url('../首页img/banner.png') no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+html .old .navs input,
+body .old .navs input {
+  width: 90%;
+  height: 0.35rem;
+  font-size: 0.12rem;
+  border-radius: 0.05rem;
+  margin-top: 1.8rem;
+  background: url('../首页img/seach.jpg') no-repeat 0.1rem;
+  background-color: white;
+  background-size: 0.2rem;
+  padding-left: 0.4rem;
+}
+html .old .house,
+body .old .house {
+  width: 100%;
+  height: 1rem;
+  background-color: #ff8a00;
+  display: flex;
+  padding: 0.1rem 0.1rem 0 0.1rem;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+html .old .house li,
+body .old .house li {
+  flex: 1;
+  text-align: center;
+}
+html .old .house li img,
+body .old .house li img {
+  width: 0.6rem;
+  display: block;
+  margin: 0 auto;
+}
+html .old .house li p,
+body .old .house li p {
+  font-size: 0.12rem;
+  color: white;
+  margin-top: 0.05rem;
+}
+html .old .look,
+body .old .look {
+  width: 100%;
+  height: 2.5rem;
+  background: url('../首页img/banner2.png') no-repeat;
+  background-size: 100%;
+}
+html .old .hot,
+body .old .hot {
+  width: 100%;
+  height: 0.6rem;
+  background-color: #ff8a00;
+  margin-top: 0.1rem;
+}
+html .old .hot p,
+body .old .hot p {
+  font-size: 0.18rem;
+  color: white;
+  font-weight: 650;
+  margin-left: 0.2rem;
+}
+html .old .hot .hot-b,
+body .old .hot .hot-b {
+  font-size: 0.13rem;
+}
+html .old .uls,
+body .old .uls {
+  width: 100%;
+  padding: 0 0.1rem;
+  background-color: white;
+}
+html .old .uls li,
+body .old .uls li {
+  width: 100%;
+  height: 1.4rem;
+  border-bottom: 1px solid #ff2e2e;
+  font-size: 0.12rem;
+  overflow: hidden;
+}
+html .old .uls li img,
+body .old .uls li img {
+  display: block;
+  width: 0.9rem;
+  float: left;
+  margin: 0.3rem 0.2rem 0 0;
+}
+html .old .uls li div,
+body .old .uls li div {
+  width: 1.8rem;
+  float: left;
+  padding: 0.3rem 0.1rem 0.3rem 0;
+}
+html .old .uls li div .lis-one,
+body .old .uls li div .lis-one {
+  width: 100%;
+  font-size: 0.18rem;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+html .old .uls li div .lis-two span,
+body .old .uls li div .lis-two span {
+  display: block;
+  float: right;
+  color: #ff8a00;
+  font-weight: 400;
+}
+html .old .uls li div .lis-three span,
+body .old .uls li div .lis-three span {
+  display: block;
+  float: right;
+}
+html .old .uls li div .lis-four,
+body .old .uls li div .lis-four {
+  margin-top: 0.1rem;
+}
+html .old .uls li div .lis-four a,
+body .old .uls li div .lis-four a {
+  padding: 0.01rem 0.02rem;
+  background-color: #f4f7f9;
+  margin-left: 0.1rem;
+}
+html .old .door,
+body .old .door {
+  width: 100%;
+  height: 2rem;
+  background-color: white;
+  margin-top: 0.1rem;
+}
+html .old .door .door-nav,
+body .old .door .door-nav {
+  width: 100%;
+  height: 0.55rem;
+  display: flex;
+  border-bottom: 1px solid #ff8e1f;
+}
+html .old .door .door-nav a,
+body .old .door .door-nav a {
+  flex: 1;
+  font-size: 0.13rem;
+  color: #757575;
+  line-height: 0.55rem;
+  text-align: center;
+}
+html .old .door .door-nav a:hover,
+body .old .door .door-nav a:hover {
+  border-bottom: 1px solid #ff8e1f;
+}
+html .old .door ul,
+body .old .door ul {
+  float: left;
+  width: 50%;
+  font-size: 0.13rem;
+  padding: 0.1rem 0.3rem 0.1rem 0.2rem;
+}
+html .old .door ul li,
+body .old .door ul li {
+  padding-top: 0.1rem;
+}
+html .footers,
+body .footers {
+  width: 100%;
+  height: 1.5rem;
+  background-color: #2f3130;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0;
+}
+html .footers .footers-nav,
+body .footers .footers-nav {
+  width: 100%;
+  height: 0.4rem;
+  border-bottom: 1px solid white;
+  color: #727473;
+  font-size: 0.14rem;
+  padding-left: 0.2rem;
+}
+html .footers .footers-nav a,
+body .footers .footers-nav a {
+  color: #727473;
+  line-height: 0.4rem;
+}
+html .footers ul,
+body .footers ul {
+  width: 100%;
+  display: flex;
+}
+html .footers ul li,
+body .footers ul li {
+  flex: 1;
+  font-size: 0.12rem;
+  color: #727473;
+  display: inline-flex;
+}
+html .footers ul li img,
+body .footers ul li img {
+  width: 0.3rem;
+  height: 0.3rem;
+  display: block;
+  margin: 0.2rem 0.1rem 0 0.25rem;
+}
+html .footers ul li div,
+body .footers ul li div {
+  margin-top: 0.2rem;
+}
+html .footers .footer-fot,
+body .footers .footer-fot {
+  width: 100%;
+  height: auto;
+  margin-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+html .footers .footer-fot p,
+body .footers .footer-fot p {
+  width: 100%;
+  font-size: 0.11rem;
+  color: #727473;
+  text-align: center;
+}
+html .advertising,
+body .advertising {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 0.12rem;
+  width: 100%;
+  height: 0.5rem;
+  opacity: 0.5rem;
+  display: flex;
+  color: white;
+  background-color: rgba(127, 127, 127, 0.6);
+}
+html .advertising .img-a,
+body .advertising .img-a {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  padding: 0.1rem 0 0 0.2rem;
+}
+html .advertising .img-b,
+body .advertising .img-b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.15rem;
+  height: 0.15rem;
+}
+html .advertising .advertising-house,
+body .advertising .advertising-house {
+  flex: 3;
+  margin: 0.05rem 0 0 0.3rem;
+}
+html .advertising .advertising-house .p-t,
+body .advertising .advertising-house .p-t {
+  font-size: 0.15rem;
+}
+html .advertising .advertising-house .p-b,
+body .advertising .advertising-house .p-b {
+  font-size: 0.11rem;
+}
+html .advertising .advertising-hand,
+body .advertising .advertising-hand {
+  flex: 2;
+  font-size: 0.13rem;
+  line-height: 0.5rem;
+  text-align: center;
+  background-color: #ff8a00;
+}

@@ -1,0 +1,253 @@
+.demo {
+  width: 100%;
+  height: 1.85rem;
+}
+.demo img {
+  width: 100%;
+  height: 100%;
+}
+.sky {
+  width: 100%;
+  height: 1.55rem;
+  background-color: white ;
+  padding: 0.2rem 0.1rem 0 0.1rem;
+}
+.sky .sky_a {
+  font-size: 0.18rem;
+  font-weight: 700;
+  width: 95%;
+}
+.sky .sky_b {
+  width: 100%;
+  font-size: 0.13rem;
+  margin-top: 0.1rem;
+  position: relative;
+}
+.sky .sky_b span {
+  color: #db4c3f;
+}
+.sky .sky_b img {
+  width: 0.15rem;
+  height: 0.2rem;
+  position: absolute;
+  right: 0.3rem;
+  top: -0.05rem;
+}
+.sky .sky_c {
+  font-size: 0.12rem;
+  color: #b4b6bb;
+  width: 100%;
+  margin-top: 0.1rem;
+}
+.sky:nth-child(3) {
+  width: 100%;
+}
+.sky:nth-child(3) a {
+  padding: 0.02rem 0.03rem;
+  background-color: #dee9f0;
+  font-size: 0.12rem;
+  display: block;
+  float: left;
+  margin: 0.15rem 0.2rem 0 0;
+}
+.messige {
+  width: 100%;
+  height: 4.1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.15rem;
+  background-color: white;
+  margin-top: 0.1rem;
+}
+.messige li {
+  width: 100%;
+  font-size: 0.13rem;
+  flex: 1;
+  border-bottom: 1px solid #e8e8e8;
+  padding-top: 0.2rem;
+}
+.messige p {
+  flex: 1;
+  font-size: 0.14rem;
+  padding-top: 0.1rem;
+  text-align: center;
+}
+.feature {
+  width: 100%;
+  height: 2.1rem;
+  background-color: white;
+  margin-top: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.2rem;
+}
+.feature .feature-one {
+  font-size: 0.18rem;
+  font-weight: 600;
+  color: #ff9326;
+  flex: 1;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 0.1rem;
+}
+.feature .feature-two {
+  font-size: 0.12rem;
+  flex: 3;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 0.05rem;
+  line-height: 0.25rem;
+}
+.feature .feature-three {
+  font-size: 0.12rem;
+  flex: 1;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  padding-top: 0.15rem;
+}
+.ulsss {
+  width: 100%;
+  padding: 0 0.1rem;
+  background-color: white;
+  margin-top: 0.1rem;
+}
+.ulsss li {
+  width: 100%;
+  height: 1.4rem;
+  border-bottom: 1px solid #ff2e2e;
+  font-size: 0.12rem;
+  overflow: hidden;
+}
+.ulsss li img {
+  display: block;
+  width: 0.9rem;
+  float: left;
+  margin: 0.3rem 0.1rem 0 0;
+}
+.ulsss li div {
+  width: 1.8rem;
+  float: left;
+  padding: 0.3rem 0.1rem 0.3rem 0;
+}
+.ulsss li div .lis-one {
+  width: 100%;
+  font-size: 0.18rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ulsss li div .lis-four {
+  margin-top: 0.1rem;
+}
+.ulsss li div .lis-four a {
+  padding: 0.01rem 0.02rem;
+  background-color: #f4f7f9;
+  margin-right: 0.1rem;
+}
+.grading {
+  width: 100%;
+  height: 3rem;
+  background-color: white;
+  margin-top: 0.1rem;
+  font-size: 0.12rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.15rem;
+}
+.grading h2 {
+  width: 100%;
+  flex: 1;
+  border-bottom: 1px solid #f5f5f5;
+  padding-top: 0.05rem;
+}
+.grading li {
+  width: 100%;
+  flex: 1;
+  border-bottom: 1px solid #f5f5f5;
+  padding-top: 0.15rem;
+}
+.grading li sapn {
+  color: #bcb2bd;
+}
+.grading .grading-a {
+  text-align: center;
+}
+.grading .grading-a a {
+  color: #bcb2bd;
+}
+.around {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.15rem;
+  background-color: white;
+  margin-top: 0.1rem;
+}
+.around .around-a {
+  flex: 1;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 0.17rem;
+  padding-top: 0.15rem;
+  margin-bottom: 0.1rem;
+}
+.around #con {
+  width: 100%;
+  flex: 5;
+  margin-bottom: 0.1rem;
+}
+.uls-details {
+  width: 100%;
+  padding: 0 0.1rem;
+  background-color: white;
+  margin-top: 0.1rem;
+}
+.uls-details li {
+  width: 100%;
+  height: 1.4rem;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 0.12rem;
+  overflow: hidden;
+}
+.uls-details li img {
+  display: block;
+  width: 0.9rem;
+  float: left;
+  margin: 0.3rem 0.2rem 0 0;
+}
+.uls-details li div {
+  width: 1.8rem;
+  float: left;
+  padding: 0.3rem 0.1rem 0.3rem 0;
+}
+.uls-details li div .lis-one {
+  width: 100%;
+  font-size: 0.18rem;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.uls-details li div .lis-two span {
+  display: block;
+  float: right;
+  color: #ff8a00;
+  font-weight: 400;
+}
+.uls-details li div .lis-three span {
+  display: block;
+  float: right;
+}
+.uls-details li div .lis-four {
+  margin-top: 0.1rem;
+}
+.uls-details li div .lis-four a {
+  padding: 0.01rem 0.02rem;
+  background-color: #f4f7f9;
+  margin-left: 0.1rem;
+}
+.uls-details .like {
+  font-size: 0.12rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+}

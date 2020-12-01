@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/details.css">
+    <link rel="stylesheet" href="./swiper-bundle.css">
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=e2dUCIBt7tiHfyN5mRnGS43iHI6cGvPr"></script>
+</head>
+
+<body>
+    <div class="old">
+    <div class="headers">
+        <img class="img-logo" src="./首页img/logo.jpg">
+        <img class="img-my" src="./首页img/my.jpg"/>
+        <img src="./首页img/xiazai.jpg"/>
+    </div>
+    <div class="swiper-container demo">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./SecondHandList/img5.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./SecondHandList/img1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./SecondHandList/img2.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./SecondHandList/img3.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./SecondHandList/img4.png" alt="">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="sky">
+        <p class="sky_a">天鹅湾小区精装两房，满五唯一，业主换房急售</p>
+        <p class="sky_b"><span>567</span>万元(单价：4632元/平)<img src="./SecondHandList/phone.png"/></p>
+        <p class="sky_c">挂牌时间2015年6月20日</p>
+        <p>
+            <a>学区房</a>
+            <a>独家</a>
+            <a>满五唯一</a>
+        </p>
+    </div>
+    <ul class="messige">
+        <li>
+            <span>户型：3室2厅</span>
+            <span>面积：100平</span>
+        </li>
+        <li>
+            <span>楼层：中楼层</span>
+            <span>朝向：西南</span>
+        </li>
+        <li>
+            <span>装修：精修</span>
+            <span>模型：塔楼</span>
+        </li>
+        <li>
+            <span>首付：123万</span>
+            <span>月供：1568元</span>
+        </li>
+        <li>
+            <span>地址：东京81号</span>
+        </li>
+        <li>
+            <span>小区珠江帝景</span>
+        </li>
+        <li>
+            <span>学校：北京市第二实验小学</span>
+        </li>
+        <p>
+            更多房源信息
+        </p>
+    </ul>
+    <ul class="feature">
+        <li class="feature-one">房源特色</li>
+        <li class="feature-two">小区环境优雅，虽然呼吁了上岛咖
+            啡马上来考察你就去哦·是佛恰好佛你佛法后按承诺覅哦啊瘦
+            啊覅百草阿发附表UFO非非合法化佛厚爱哈佛安徽发哦你菲欧覅回去
+            发挥吧...
+        </li>
+        <li class="feature-three">
+            更多特色
+        </li>
+    </ul>
+    <ul class="ulsss">
+        <li>
+            <img src="./首页img/img1.jpg"/>
+            <div>
+                <p class="lis-one">当前格局</p>
+                <p class="lis-two">分间信息：客厅25平方米，南北通透</p>
+                <p class="lis-four">
+                    <a href="#">南北通透</a>
+                    <a href="#">全明格局</a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <img src="./首页img/img2.png"/>
+            <div>
+                <p class="lis-one">当前格局</p>
+                <p class="lis-two">分间信息：客厅25平方米，南北通透</p>
+                <p class="lis-four">
+                    <a href="#">南北通透</a>
+                    <a href="#">全明格局</a>
+                </p>
+            </div>
+        </li>
+    </ul>
+    <ul class="grading">
+        <h2>对口学校</h2>
+        <li><sapn>学校名称：</sapn>北京市第二实验小学</li>
+        <li><sapn>学校名称：</sapn>北京市第二实验小学</li>
+        <li><sapn>学校名称：</sapn>北京市第二实验小学</li>
+        <li><sapn>学校名称：</sapn>北京市第二实验小学</li>
+        <li><sapn>学校名称：</sapn>北京市第二实验小学</li>
+        <li class="grading-a"><a>查看学校详情</a></li>
+    </ul>
+    <ul class="around">
+        <li class="around-a">位置及周边</li>
+        <li id="con"></li>
+    </ul>
+    <ul class="uls-details">
+        <li>
+            <img src="./首页img/img1.jpg"/>
+            <div>
+                <p class="lis-one">文化中部中间层 一层带花园的看法我发你离开</p>
+                <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                <p class="lis-three">红庙北里 <span>14256元/平</span></p>
+                <p class="lis-four">
+                    <a href="#">学区房</a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <img src="./首页img/img2.png"/>
+            <div>
+                <p class="lis-one">文化中部中间层 一层带花园的看法我发你离开</p>
+                <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                <p class="lis-three">红庙北里 <span>14256元/平</span></p>
+                <p class="lis-four">
+                    <a href="#">学区房</a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <img src="./首页img/img3.png"/>
+            <div>
+                <p class="lis-one">文化中部中间层 一层带花园的看法我发你离开</p>
+                <p class="lis-two">2室1厅平方南北 <span>1105万</span></p>
+                <p class="lis-three">红庙北里 <span>14256元/平</span></p>
+                <p class="lis-four">
+                    <a href="#">学区房</a>
+                </p>
+            </div>
+        </li>
+        <li class="like">
+            查看更多相似房源
+        </li>
+    </ul>
+    <div class="footers">
+        <div class="footers-nav">
+            <a href="#">北京找房无忧</a>><a href="#">首页</a>
+        </div>
+        <ul>
+            <li>
+                <img src="./首页img/apple.png"/>
+                <div>
+                    <p>iPhone</p>
+                    <p>客户端</p>
+                </div>
+            </li>
+            <li>
+                <img src="./首页img/android.png"/>
+                <div>
+                    <p>iPhone</p>
+                    <p>客户端</p>
+                </div>
+            </li>
+        </ul>
+        <div class="footer-fot">
+            <p>房地产假发票经发局发盘发</p>
+        <p>房地产假发票经发局发发发爱看</p>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+
+<script src="./swiper-bundle.min.js"></script>
+<script>
+    function setRem(){
+    var windw = document.documentElement.clientWidth || document.body.clientWidth;
+    var uiw = 320;
+    document.documentElement.style.fontSize = (windw/uiw)*100+'px';
+   }
+    setRem();
+    window.onresize = setRem;
+
+    new Swiper('.demo', {
+        autoplay: {
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        effect: 'fade'
+    });
+
+
+    
+    var map = new BMapGL.Map("con");
+    var point = new BMapGL.Point(113.6871, 34.8130);
+    map.centerAndZoom(point, 15); 
+    
+</script>
+</html>
